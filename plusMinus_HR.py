@@ -13,8 +13,11 @@ def plusMinus(arr):
     print(round(zero/length,6))
     print(round(pos/length,6))
     print(round(neg/length,6))
-    
-n = int(input())
-arr = list(map(int,input().split()))
-plusMinus(arr)
+ 
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int,input().split()))
+    plusMinus(arr)
+
+
 
