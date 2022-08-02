@@ -14,7 +14,7 @@ def plusMinus(arr):
     print(round(pos/length,6))
     print(round(neg/length,6))
  
-if __name__ == '__main__':
+if __name__ == '__main__': 
     n = int(input())
     arr = list(map(int,input().split()))
     plusMinus(arr)
