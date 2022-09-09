@@ -8,6 +8,7 @@ def count_substring(string,sub_string):
     count = 0
     for i in range (len(string) - len(sub_string) + 1):
         list1.append(string[i : len(sub_string) + i])
+    # print(list1)
     for j in list1: 
         if j == sub_string:
             count += 1
@@ -15,6 +16,10 @@ def count_substring(string,sub_string):
 
 string = input()
 sub_string = input()
+
+# string = 'ABCDCDC'
+# sub_string = 'CDC'
+
 res = count_substring(string,sub_string)
 print(res)
 
