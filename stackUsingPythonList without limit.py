@@ -29,7 +29,7 @@ class Stack:
         else:
             return self.list.pop()
 
-#peek Method                           it returns last element of stack
+#peek Method                           it returns first element of stack
 
     def peek(self):
         if self.isEmpty():
