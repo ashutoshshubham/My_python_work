@@ -1,3 +1,4 @@
+
 def bonAppetit(bill, k, b):
     sum = 0
     for i in bill:
